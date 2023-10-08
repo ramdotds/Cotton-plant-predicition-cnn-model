@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>README.md</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: rgb(24, 23, 23);
+        }
+
+        .readme {
+            border: 1px solid rgb(2, 65, 2);
+            padding: 10px;
+            width: 85vw;
+            margin: auto;
+            text-align: justify;
+            background: rgb(238, 235, 235);
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: darkblue;
+            padding: 5px;
+        }
+
+        h4 {
+            padding: 5px;
+            color: rgb(117, 5, 5);
+        }
+
+        p {
+            padding: 5px;
+            color: gray;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="readme">
+        <h1>
+            # **Cotton Plant Disease Pridiction Deep Learning CNN Model**
+        </h1>
+        <h3>
+            ## *Introduction* -:</h3>
+        <p>
+            Agriculture is the backbone of many countries in South Asia like Bangladesh, China, and India.Cotton is
+            known as
+            ‘white gold’ in the agricultural industry. Agriculture is the primary source of economic income in
+            Bangladesh
+            and the country’s economy is heavily dependent on agriculture. The soil and water resources of our country
+            are
+            fertile and the climate is moderate. But numerous diseases aﬀect crop production and cause enormous crop
+            losses,
+            endangering the lives of helpless farmers. A previous report showed that about 70–80% of cotton diseases
+            were
+            leaf diseases and 30–20% were pest diseases. Experts typically use bare eyes to ﬁnd and identify such plant
+            diseases and pests which may result from lower accuracy of the identiﬁcation. As a result, early detection
+            of
+            cotton disease using AI-based systems may help to increase the production of cotton by detecting the leaf
+            disease signiﬁcantly.
+
+            So we use Deep Techniques for model building and provide a best accuracy of model for Agriculture domain.
+        </p>
+        <h3>
+            ## *Python Libraries use in this Project* -:</h3>
+        <h4>
+            Python Libraries-
+        </h4>
+        Numpy
+        <br>
+        Matplotlib
+        <br>
+        Keras
+        <h4>
+            For Deployment-</h4>
+        Flask
+        <h4>
+            Version - </h4>check the versions in <strong>'requirements.txt'</strong> file.
+        <h3>
+            ## *Data Collection* -:</h3>
+        <p>
+            A data set containing images of fresh and diseased cotton leaf and plants are collected from Kaggle.com as
+            part
+            of a competition. This data set is comprised of four image types: fresh cotton leaf, fresh cotton plant,
+            diseased cotton leaf and diseased cotton plant with unique images. For example, 2 and 3 represent the fresh
+            and
+            aﬀected samples of the dataset.
+        </p>
+        <h3>
+            ## *Data Analysis and Preprocessing* -:</h3>
+        <p>
+            The real image of the dataset is not always fresh and hence may contain noise in the data. Before attempting
+            to
+            ﬁt them into the learning module, it is necessary to preprocess them for better accuracy and per-formance of
+            the
+            module. This refers to the process of preparing the data for further use, which may involve integrating,
+            cleaning, normalization, or transforming the data. In our case, we apply the some types of operation -
+            Resize,
+            Rescaling, zooming etc.
+        </p>
+        <h3>
+            ## *Model Building With Convolutional neural network (CNN) Model* -:</h3>
+        <p>
+            Train the data using CNN and apply the some tradisional features like resize, rescaling, or build a model
+            with
+            98% accuracy. Model will give perfect accuracy after increasing the number of epochs. We use maxpooling
+            layers
+            with each or affected position.You can see summary detail of model using model.summary function.The data has
+            droped three times with building model at 0.2, 0.5, and 0.75.
+        </p>
+        <h3>
+            ## *Model accuracy, Evaluation, or Test* -:</h3>
+        Model is giving 98% accuracy with the better validation accuracy and
+        tested confusion Matrix, classification report, precision or recall scores.
+        <br>
+        <h4>
+            There is some parameter chenges for model building. <br>
+            Learning Rate - 0.001 <br>
+            Dropout - 0.2 <br>
+            Optimizer - Adam <br>
+            Loss - SparseCategoricalCrossentropy <br>
+            etc.</h4>
+        We plotted the Accuracy or Losses at Chart.
+        <h3>
+            ## *Deployment of the Project* -:</h3>
+        <p>
+            This is a complete Project of cnn so we Deployed at heroku
+            we use Flask Python library for backend.</p>
+        <h2>
+            # **Project End**</h2>
+    </div>
+
+</body>
+
+</html>

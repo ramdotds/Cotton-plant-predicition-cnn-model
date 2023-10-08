@@ -1,0 +1,155 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+/* ---------------------------------------------------------------navbar*/
+.navbar{
+    background-color: white;
+    border:1px solid rgb(161, 158, 158);
+    list-style: none;
+    display: flex;
+    flex-flow: wrap;
+    position: sticky;
+    top: 0px;
+}
+.navbar>li{
+    margin: 15px 5px;
+}
+.navbar>li>a{
+    border: 1px solid transparent;
+    text-decoration: none;
+    padding: 12px;
+    color: gray;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.navbar>li>a:hover{
+    border-bottom: 5px solid #0e202e ;
+}
+
+/* -------------------------------------------------------------header box*/
+.section-head{
+    height: 71vh;
+    margin: auto;
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    margin-top: 87px;
+    overflow: hidden;
+}
+.section-head>img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+}
+/*---------------------------------------------------------------head Heading*/
+.main-container>h2{
+    margin: 39px 0px;
+    margin-top: 0px;
+    padding: 30px 0px;
+    text-align: center;
+    background: #0e202e;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: sticky;
+    top: 52px;
+}
+/* -------------------------------------------------------------form*/
+.section-body{
+    border: 1px solid transparent;
+    margin-top: 70px;
+}
+/*form*/
+.section-body>form{
+    display: flex;
+    flex-direction: column;
+    width: 1fr;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 1.4rem;
+}
+/*lable title*/
+.section-body>form>label{
+    color: rgb(59, 59, 59);
+    padding: 1px;
+    margin-top: 59px;
+    cursor: pointer;
+}
+
+/*-Choose file*/
+.section-body>form>input{
+    border: 1px solid transparent;
+    width: 200px;
+    margin-top: 40px;
+    background: rgb(104, 104, 104);
+    font-variant-caps:small-caps ;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.section-body>form>input::-webkit-file-upload-button{
+    border-bottom-right-radius: 50px;
+    border: 1px solid transparent;
+    height: 80px;
+    background: #0e202e;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-variant-caps:small-caps ;
+    color: rgb(175, 171, 171);
+    font-weight: bold;
+    font-size: 1rem;
+
+}
+/*button*/
+.section-body>form>button{
+    width: 50px;
+    margin-top: 90px;
+    border: 1px solid gray;
+    padding: 20px 40px;
+    padding-right: 90px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-variant-caps:small-caps ;
+    font-weight: bold;
+    font-size: 1rem;
+    color: rgb(175, 171, 171);
+    background: #0e202e;
+    cursor: pointer;
+}
+.section-body>form>button:hover{
+    background: white;
+    color: gray;
+}
+/*-------------------------------------------------------------------aside footer head*/
+.aside>h2{
+    padding: 50px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(46, 45, 45);
+    font-size: 2rem;
+    margin-top: 50px;
+}
+.aside>.img-box{
+    text-align: center;
+}
+.aside>.img-box>img{
+    border: 1px solid rgb(0, 0, 0);
+    width: 300px;
+    height: 250px;
+    margin: 5px;
+}
+/* ---------------------------------------------------------------------footer*/
+.footer{
+    padding: 30px;
+    margin-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    background: gray;
+    color: #0e202e;
+}

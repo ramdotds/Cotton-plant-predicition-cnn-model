@@ -1,0 +1,32 @@
+.container {
+    border: 1px solid transparent;
+    display: grid;
+    flex-flow: wrap;
+    width: 95vw;
+    margin: auto;
+    padding-top: 70px;
+    grid-template-columns: 1fr 3fr;
+}
+.container>img{
+    border: 1px solid rgb(201, 199, 199);
+    width: 250px;
+    height: 250px;
+}
+.container>div{
+    border: 1px solid transparent;
+    text-align: justify;
+    padding: 5px;
+}
+.plant-des{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(136, 2, 2);
+}
+.container>div>h2{
+    background: gray;
+    padding: 5px;
+}.container>div>p{
+    border: 1px solid transparent;
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
+}
